@@ -726,10 +726,10 @@
 
     /*  */
     #button {
-        width: 72px;
-        height: 72px;
-        bottom: 105px;
-        right: 45px;
+        width: 50px;
+            height: 51px;
+            bottom: 23px;
+            left: 19px;
     }
 
     /* about page */
@@ -1120,7 +1120,7 @@
 
     .about-silver-con .vm-inner1 h3 {
         margin-bottom: 10px;
-        text-align: left;
+        text-align: right;
         padding-left: 30px;
     }
 
@@ -2022,8 +2022,10 @@
     }
 
     .about-silver-con ul li {
+        padding-right: 40px;
         font-size: 14px;
         line-height: 20px;
+        text-align: right;
         margin-bottom: 8px;
     }
 
@@ -2033,9 +2035,9 @@
     }
 
     .about-silver-con ul li img {
-        margin-right: 7px;
-        width: 16px;
-        height: 16px;
+        margin-right: 14px;
+        width: 18px;
+        height: 18px;
     }
 
     /*  */

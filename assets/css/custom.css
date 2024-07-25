@@ -44,7 +44,9 @@ h6 {
     font-family: "Cairo", sans-serif;
     direction: rtl;
     text-align: center;
+    color:#223f81
 }
+
 
 
 .main-row{
@@ -72,7 +74,7 @@ li{
 
 /* HEADER SECTION */
 .nav-bg::before {
-    background: url(../images/navy-bg.png);
+    background: #223f81;
     content: "";
     /* width: 1334px; */
     width: 69%;
@@ -435,7 +437,7 @@ span.blue-text {
 }
 
 .we-best-con .best-feature.blue-box {
-    background-color: var(--primary--color);
+    background-color: #223f81;
     height: 400px;
     position: absolute;
     border-radius: 20px;

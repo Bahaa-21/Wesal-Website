@@ -42,14 +42,14 @@ h4,
 h5,
 h6 {
     font-family: "Cairo", sans-serif;
-    font-size: large;
     direction: rtl;
     text-align: center;
 }
 
-.row{
+
+.main-row{
     direction: rtl;
-    text-align: right;
+        text-align: right;
 }
 
 li{
@@ -474,7 +474,7 @@ span.blue-text {
 
 .about-silver-con .vm-inner1.var {
     width: 52%;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 .about-silver-con p {
@@ -562,7 +562,7 @@ span.blue-text {
 }
 
 .growth-services-con .arrow-up {
-    bottom: 28%;
+    bottom: 14%;
 }
 
 .growth-services-con .best-services:hover {

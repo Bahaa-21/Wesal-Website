@@ -42,6 +42,10 @@
 
 <body>
   <!-- LOADER -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
   <div class="loader-mask">
     <div class="loader">
       <div></div>
@@ -54,7 +58,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">
           <figure class="mb-0">
-            <img src="assets/images/logo-icon.png" alt="logo-icon" width="236" />
+            <img src="assets/images/Wesal-Logo.svg" alt="logo-icon" width="236" style="margin-top: 15px;" />
           </figure>
         </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -115,12 +119,12 @@
     <!-- header-con -->
   </header>
   <!-- BANNER SECTION -->
-  <section class="w-100 banner-con position-relative padding-bottom main-box">
+  <section class="w-100 banner-con position-relative pb-5 main-box">
     <figure>
       <img class="img-fluid position-absolute vector-img1" src="assets/images/con1.png" alt="vector" />
     </figure>
     <div class="wrapper">
-      <div class="row">
+      <div class="row main-row">
         <div class="col-lg-12 col-md-12">
           <h1>
             <span class="d-inline-block blue-text">من جميع</span> أنحاء العالم
@@ -132,53 +136,39 @@
             أنت
             أقرب من أي وقت مضى لأهلك و أحبائك
           </p>
-          <!-- <div class="col-lg-4 col-md-4">
-            <div class=" position-relative">
-              <img src="assets/images/banner-vector-img.png" class="position-relative vector-img2" alt="" />
-            </div> -->
-          <!-- <div class="row">
-            <div class="center-btn-md">
-              <div class="generic-btn d-inline-block">
-                <a href="about.html" class="d-inline-block">قراءة المزيد</a>
-              </div>
-              <div class="navy-btn d-inline-block">
-                <a href="services.html" class="d-inline-block">خدماتنا</a>
-              </div>
-            </div>
-          </div> -->
+
+
           <!-- col -->
         </div>
-        <!-- <div class="col-lg-6"">
-          <div class=" position-relative">
-          <img src="" class="position-absolute vector-img2" alt="" />
-        </div> -->
-        <!-- col -->
+        <!-- row -->
+
       </div>
-      <!-- row -->
+      <lottie-player class="lotti-anmation-home mx-auto" src='assets/a.json' background="transparent" speed="1" loop
+        autoplay></lottie-player>
+
+    </div>
     </div>
     <!-- wrapper -->
     </div>
     <!-- banner-con -->
   </section>
   <!-- WE ARE THE BEST SECTION -->
-  <section class="w-100  we-best-con position-relative text-center padding-top main-box first-section ">
+  <section class="w-100  we-best-con position-relative text-center main-box first-section ">
     <img class="img-fluid position-absolute vector-img3" src="assets/images/circle-vector.png" alt="vector" />
     <div class="wrapper1200" id="services">
       <h2 class="wow bounceInUp" data-wow-duration="2s" style="text-align: center; direction: ltr;">
         <span class="d-inline-block blue-text">خدماتنا</span>
       </h2>
-      <div class="row w-100 best-inner-con wow bounceInUp " style="text-align: center;" data-wow-duration="2s">
+      <div style="background-color: transparent;" class="row w-100 best-inner-con wow bounceInUp "
+        style="text-align: center;" data-wow-duration="2s">
         <div class="col-lg-4 col-md d-flex justify-content-center align-items-center text-center">
           <div class="best-feature pl-0">
             <figure>
               <img src="assets/images/best-feature-icon1.png" class="img-fluid" alt="best-icon" />
             </figure>
-            <h4 class="">تحويل الأموال من جميع أنحاء العالم إلى سوريا </h4>
+            <h4 class="">تحويل الأموال</h4>
             <p class="font-size-14 mb-0">
-              ابتكرنا تجربة استثنائية لتحويل الأموال
-              يمكنكم تطبيق وصال الآن من إرسال الأموال من جميع انحاء العالم واستلامها في سوريا بكل يسر وسهولة وتتبع
-              الأموال والعمولات
-              بكل شفافية على طول الطريق
+              اأرسل الأموال بسهولة من أي مكان في العالم إلى سوريا، وتتبع عملياتك بكل شفافية.
             </p>
             <!-- best feature -->
           </div>
@@ -191,9 +181,7 @@
             </figure>
             <h4 class="">تسديد الفواتير المنزلية</h4>
             <p class="font-size-14 mb-0">
-              اختصرنا عناء الطوابير والأزمات على أهلك وأحبائك في سوريا، وتجاوزت أنت الحدود الجغرافية معنا في ثوانٍ حيث
-              يمكنك تطبيق
-              وصال من سداد جميع فواتيرهم المنزلية بكل بساطة ويسر من أي مكان حول العالم.
+              اسدد فواتير الكهرباء، الهاتف، الإنترنت، والمياه لأحبائك في سوريا من أي مكان في العالم بكل سهولة
             </p>
             <!-- best feature -->
           </div>
@@ -204,10 +192,9 @@
             <figure>
               <img src="assets/images/best-feature-icon3.png" class="img-fluid" alt="best-icon" />
             </figure>
-            <h4 class="">تحويل الرصيد للهواتف المحمولة للأهل والأحباب داخل سوريا</h4>
-            <p class="font-size-14 mb-0">
-              يمكنكم من خلال تطبيق وصال إرسال رصيد إلى الهواتف المحمولة من أي مكان حول العالم إلى سوريا
-              نقدم خدمة فريدة ممزوجة بالعواطف لتلامس قلوب أحبائك
+            <h4 class="">تحويل رصيد
+            </h4>
+            <p class="font-size-14 mb-0">أرسل رصيد إلى الهواتف المحمولة (Syriatel , MTN) في سوريا من أي مكان في العالم.
             </p>
             <!-- best feature -->
           </div>
@@ -223,11 +210,11 @@
             <figure>
               <img src="assets/images/best-feature-icon2.png" class="img-fluid" alt="best-icon" />
             </figure>
-            <h4 class="">تسديد رسوم الجامعات</h4>
+            <h4 class=""> تسديد رسوم الجامعات الحكومية
+            </h4>
             <p class="font-size-14 mb-0">
-              أنت الآن عبر تطبيق وصال على بعد خطوة واحدة من تسديد رسوم الجامعة لكل الأهل بكل سهولة ويسر من أي مكان حول
-              العالم دون أي
-              عناء
+              أقم بتسديد رسوم الجامعات في سوريا لأهلك بكل سهولة ويسر من أي مكان في العالم.
+
             </p>
             <!-- best feature -->
           </div>
@@ -240,7 +227,8 @@
             </figure>
             <h4 class="">دفع رسوم جوازات السفر</h4>
             <p class="font-size-14 mb-0">
-              أصبح بإمكانك الآن عبر تطبيق سدادي تسديد رسوم جوازات سفر عائلتك وأحبائك في سوريا من أي مكان حول العالم
+              سدد رسوم جوازات السفر لعائلتك في سوريا من أي مكان في العالم عبر تطبيق وصال.
+
             </p>
             <!-- best feature -->
           </div>
@@ -259,7 +247,7 @@
     <img class=" img-fluid position-absolute vector-img4" src="assets/images/tri-con.png" alt="vector" />
   <div class="wrapper1200">
     <div class="row sub-silver-con">
-      <div class="col-lg-5">
+      <div class="col-lg-6 col-md-6">
         <figure class="position-relative silver-img">
           <img src="assets/images/about-silver-img.png" class="position-absolute wow bounceInUp" data-wow-duration="2s"
             alt="about-img" />
@@ -267,9 +255,9 @@
 
         <!-- col-lg-6 -->
       </div>
-      <div class="col-lg-7" id="features">
+      <div class="col-lg-6 col-md-6">
         <h2 class="wow bounceInUp text-center" data-wow-duration="2s">
-          <span class="d-inline-block blue-text ">ميزاتنا</span>
+          <span class="d-inline-block blue-text ">رؤيتنا</span>
         </h2>
         <p class="wow bounceInUp" data-wow-duration="2s">
           قيادة التكنولوجيا المالية نحو خلق تجربة إلكترونية فريدة ومبتكرة، تتحدى الواقع القائم، وتعمل على إلغاء
@@ -280,7 +268,7 @@
         <div class="about-vm-con float-right w-100 wow bounceInUp" data-wow-duration="2s">
           <div class="vm-inner1  mr-0 wow bounceInUp w-100" data-wow-duration="2s">
             <h3 class="">
-              <span class="d-inline-block blue-text">رسالتنا</span>
+              رسالتنا
             </h3>
             <ul class="list-unstyled p-0">
               <li class="position-relative d-flex align-items-center">
@@ -288,39 +276,6 @@
                 الابتكار والتميز، لنكون الخيار الأمثل لعملائنا في جميع أنحاء العالم
               </li>
             </ul>
-            <!-- vm-inner -->
-          </div>
-          <div class="vm-inner1 float-right var w-100">
-            <h3 class="">
-              رؤيتنا<span class="d-inline-block blue-text"></span>
-            </h3>
-            <ul class="list-unstyled p-0">
-              <li class="position-relative d-flex align-items-center">
-                السرعة والفورية
-                تتميز جميع الخدمات التي يقدمها تطبيق وصال بالسرعة الفائقة و أن الخدمات آلية و مؤتمتة و تتم بذات اللحظة
-                .
-                <img src="assets/images/check-icon.png" alt="check-icon" />
-              </li>
-              <li class="position-relative d-flex align-items-center">
-                <img src="assets/images/check-icon.png" alt="check-icon" />أسعار و عمولات رمزية
-                يعتمد تطبيق وصال على الشفافية المطلقة من حيث الأسعار المعروضة التي تشمل التكلفة النهائية الإجمالية لكل
-                خدمة دون إي
-                تكاليف إضافية
-
-              </li>
-              <li class="position-relative d-flex align-items-center">
-                <img src="assets/images/check-icon.png" alt="check-icon" />الدفع بعملات متعددة
-                يتيح تطبيق وصال إختيار عملات مختلفة للدفع
-                مما يسهل على المستخدمين الدفع بالعملة التي يتعامل بها في بلده بغض النظرعن مكان تواجده
-
-              </li>
-              <li class="position-relative d-flex align-items-center">
-                <img src="assets/images/check-icon.png" alt="check-icon" />طرق دفع عالمية
-                يدعم تطبيق وصال الدفع عبر بوابات دفع موثوقة و عالمية مما يوفر الآمان و الثقة للمستخدمين حول العالم .
-
-              </li>
-            </ul>
-
             <!-- vm-inner -->
           </div>
           <!-- about vm con -->
@@ -338,7 +293,8 @@
   </section>
   <!-- GROWTH SERVICES SECTION -->
   <section
-    class="float-left w-100 growth-services-con position-relative padding-top115 padding-bottom105 main-box light-blue-bg">
+    class="float-left w-100 growth-services-con position-relative padding-top115 padding-bottom105 main-box light-blue-bg"
+    id="features">
     <img class="position-absolute curve1" src="assets/images/curve.png" alt="curve" />
     <img class="img-fluid position-absolute vector-img1" src="assets/images/con1.png" alt="vector" />
     <div class="wrapper1200">
@@ -346,21 +302,21 @@
       <img class="smart-objct2 img-fluid position-absolute" src="assets/images/smart-objct2.png" alt="smart-objct" />
       <img class="smart-objct3 img-fluid position-absolute" src="assets/images/smart-objct3.png" alt="smart-objct" />
       <h2 class="wow bounceInUp text-center" data-wow-duration="2s">
-        اّراء <br />
-        <span class="d-inline-block blue-text">مستخدمينا</span>
+        <br />
+        <span class="d-inline-block blue-text">ميزاتنا</span>
       </h2>
       <div class="row">
         <div class="col-lg-3 col-md-6">
+          <img class="arrow-up position-absolute" src="assets/images/arrow-up.png" alt="arrow-down" />
           <div class="best-services position-relative wow bounceInUp" data-wow-duration="2s">
-            <!-- <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
+            <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
               alt="icon-vector" />
             <figure>
-              <img src="assets/images/service-icon1.png" class="img-fluid" alt="best-icon" />
-            </figure> -->
-            <h4 class="">Creative Idea</h4>
+              <img src="assets/images/سرعة فورية.svg" class="img-fluid" alt="best-icon" />
+            </figure>
+            <h4 class="">السرعة والفورية</h4>
             <p class="font-size-14 mb-0">
-              Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do
-              eiusmod tempor.
+              تتميز جميع الخدمات التي يقدمها تطبيق وصال بالسرعة الفائقة و أن الخدمات آلية و مؤتمتة و تتم بذات اللحظة
             </p>
             <!-- best services -->
           </div>
@@ -369,15 +325,16 @@
         <div class="col-lg-3 position-var col-md-6">
           <img class="arrow-down position-absolute" src="assets/images/arrow-down.png" alt="arrow-down" />
           <div class="best-services position-relative wow bounceInUp" data-wow-duration="2s">
-            <!-- <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
+            <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
               alt="icon-vector" />
             <figure>
-              <img src="assets/images/service-icon2.png" class="img-fluid" alt="best-icon" />
-            </figure> -->
-            <h4 class="">Business Strategy</h4>
+              <img src="assets/images/عمولات رمزية.svg" class="img-fluid" alt="best-icon" />
+            </figure>
+            <h4 class="">أسعار و عمولات رمزية</h4>
             <p class="font-size-14 mb-0">
-              Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do
-              eiusmod tempor.
+              يعتمد تطبيق وصال على الشفافية المطلقة من حيث الأسعار المعروضة التي تشمل التكلفة النهائية الإجمالية لكل
+              خدمة دون إي
+              تكاليف إضافية
             </p>
             <!-- best services -->
           </div>
@@ -386,15 +343,15 @@
         <div class="col-lg-3 col-md-6 secondlast-one">
           <img class="position-absolute arrow-up" src="assets/images/arrow-up.png" alt="arrow-up" />
           <div class="best-services position-relative wow bounceInUp" data-wow-duration="2s">
-            <!-- <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
+            <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
               alt="icon-vector" />
             <figure>
-              <img src="assets/images/service-icon3.png" class="img-fluid" alt="best-icon" />
-            </figure> -->
-            <h4 class="">Relationship</h4>
+              <img src="assets/images/دعم عملات.svg" class="img-fluid" alt="best-icon" />
+            </figure>
+            <h4 class="">الدفع بعملات متعددة</h4>
             <p class="font-size-14 mb-0">
-              Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do
-              eiusmod tempor.
+              يتيح تطبيق وصال إختيار عملات مختلفة للدفع
+              مما يسهل على المستخدمين الدفع بالعملة التي يتعامل بها في بلده بغض النظرعن مكان تواجده
             </p>
             <!-- best services -->
           </div>
@@ -403,15 +360,16 @@
         <div class="col-lg-3 position-var wow bounceInUp col-md-6 last-one" data-wow-duration="2s">
           <img class="position-absolute arrow-down" src="assets/images/arrow-down.png" alt="arrow-down" />
           <div class="best-services position-relative">
-            <!-- <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
+            <img src="assets/images/icon-vector.png" class="icon-vector position-absolute img-fluid"
               alt="icon-vector" />
             <figure>
-              <img src="assets/images/service-icon4.png" class="img-fluid" alt="best-icon" />
-            </figure> -->
-            <h4 class="">Productivity</h4>
+              <img src="assets/images/دعم فني.svg" class="img-fluid" alt="best-icon" />
+            </figure>
+            <h4 class="">الدعم الفني</h4>
             <p class="font-size-14 mb-0">
-              Lorem ipsum dolor sit amet con sectetur adipisicing elit sed do
-              eiusmod tempor.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quaerat cum voluptatibus minus nostrum ea
+              porro enim nam quisquam reiciendis a consequatur quae vero soluta aspernatur, cupiditate nulla amet.
+              Architecto.
             </p>
             <!-- best services -->
           </div>
@@ -907,7 +865,12 @@
   <script src="assets/js/custom.js"></script>
   <script>
     new WOW().init();
+
+
+
   </script>
+
+
 </body>
 
 </html>

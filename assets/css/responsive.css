@@ -2,6 +2,9 @@
     .nav-bg::before {
         width: 65%;
     }
+
+    
+
 }
 
 @media screen and (min-width: 2101px) and (max-width: 2400px) {
@@ -1087,7 +1090,7 @@
 
     .about-silver-con .vm-inner1.var {
         width: 50%;
-        margin-right: 10px;
+        margin-right: 0%;
     }
 
     .about-silver-con h2 {
@@ -1123,6 +1126,7 @@
         text-align: right;
         padding-left: 30px;
     }
+   
 
     /*  */
     .growth-services-con {
@@ -1871,6 +1875,7 @@
 }
 
 @media screen and (max-width : 575px) {
+
     .padding-top {
         padding-top: 40px;
     }
@@ -2030,10 +2035,12 @@
     }
 
     .about-silver-con .vm-inner1,
+
     .about-silver-con .vm-inner1.var {
         width: 48%;
+        
     }
-
+    
     .about-silver-con ul li img {
         margin-right: 14px;
         width: 18px;
@@ -2305,5 +2312,19 @@
     }
     .contact-map-con iframe {
         height: 230px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .lotti-anmation-home {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 801px) {
+    .lotti-anmation-home {
+        width: 700px;
+        height: 700px;
     }
 }

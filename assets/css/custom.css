@@ -127,7 +127,7 @@ li{
 }
 
 .header-con .navbar-light .navbar-nav li.contact-btn a.nav-link {
-    background-color: var(--primary--color);
+    background-color: #059cd6;
     padding: 18px 32px !important;
     border-radius: 100px;
     /* width: 172px; */
@@ -220,7 +220,7 @@ li{
 /* BACK TO TOP BUTTON */
 #button {
     display: inline-block;
-    background-color: var(--navy-blue);
+    background-color:#223f81;
     width: 82px;
     height: 82px;
     text-align: center;
@@ -417,6 +417,7 @@ span.blue-text {
     border-radius: 20px;
     margin: 0;
     padding: 70px 55px 58px;
+    margin-top: 100px;
 }
 
 .main-box h4 {
@@ -430,7 +431,7 @@ span.blue-text {
 }
 
 .we-best-con .best-feature figure {
-    background-color: var(--light-blue);
+    background-color: #fff;
     border-radius: 100px;
     padding: 9px 0;
     margin-bottom: 17px;
@@ -481,6 +482,7 @@ span.blue-text {
 
 .about-silver-con p {
     line-height: 28px;
+    direction: rtl;
 }
 
 .about-silver-con .vm-inner1 h3 {
@@ -536,7 +538,7 @@ span.blue-text {
 }
 
 .growth-services-con .best-services figure {
-    background-color: var(--light-blue);
+    background-color: #fff;
     border-radius: 100px;
     padding: 13px;
     margin-bottom: 12px;
@@ -568,7 +570,7 @@ span.blue-text {
 }
 
 .growth-services-con .best-services:hover {
-    background-color: var(--primary--color);
+    background-color: #223f81;
     transition: all 0.3s ease-in-out;
 }
 

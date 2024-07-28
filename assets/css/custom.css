@@ -47,7 +47,9 @@ h6 {
     color:#223f81
 }
 
-
+.nav-bg {
+    background-color: var(--navy-blue)
+}
 
 .main-row{
     direction: rtl;
@@ -74,7 +76,7 @@ li{
 
 /* HEADER SECTION */
 .nav-bg::before {
-    background: #223f81;
+    background: none;
     content: "";
     /* width: 1334px; */
     width: 69%;
@@ -85,7 +87,11 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.header-padding {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0px;
+}
 .header-con .navbar-light .navbar-nav .nav-link {
     font-size: 16px;
     color: var(--secondary--color);
@@ -199,7 +205,9 @@ li{
     background-color: var(--primary--color);
     color: var(--secondary--color);
 }
-
+.collapse {
+    background: none;
+}
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover {
     background-color: var(--primary--color);
     color: var(--secondary--color);
@@ -207,6 +215,7 @@ li{
 
 .navbar-light .navbar-brand {
     padding-top: 2px;
+    margin-left: 16px;
 }
 
 .center-btn-md {
@@ -405,7 +414,9 @@ span.blue-text {
     animation: move 4s ease infinite;
     animation-duration: 8s;
 }
-
+.no-margin-top {
+    margin-top: 0px;
+}
 .main-box h2 {
     margin-bottom: 75px;
     text-transform: uppercase;
@@ -727,6 +738,11 @@ span.blue-text {
 /* CREATIVITY SECTION */
 .creativity-con h2 {
     margin-bottom: 19px;
+}
+
+.navbar {
+    background-color: var(--navy-blue);
+   
 }
 
 .creativity-con .creative-inner-wrapper {

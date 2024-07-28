@@ -60,7 +60,7 @@ li{
 }
 
 :root {
-    --primary--color: #059cd6;
+    --primary--color: #ffffff;
     --black--color: #000000;
     --dark-blue: #000c36;
     --navy-blue: #00186e;
@@ -644,6 +644,12 @@ span.blue-text {
     margin-bottom: 20px;
 }
 
+.items{
+    display: flex;
+        height: 100%;
+        align-content: center;
+}
+
 .projects-con .project-carousel .item {
     margin: 0;
     padding: 70px 43px;
@@ -849,9 +855,10 @@ span.blue-text {
 }
 
 .reviews-con .review-carousel .item span.reviewer-name {
-    color: var(--navy-blue);
-    font-size: 18px;
+    color: var(--light-blue);
+    font-size: 25px;
     font-weight: 600;
+  
     margin-bottom: 20px;
 }
 

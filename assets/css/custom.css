@@ -88,6 +88,8 @@ li{
     background-repeat: no-repeat;
 }
 .header-padding {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 0px;
@@ -114,7 +116,7 @@ li{
 }
 
 .header-con {
-    margin-top: 38px;
+    margin-top: 0px;
     z-index: 1;
 }
 
@@ -211,6 +213,11 @@ li{
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover {
     background-color: var(--primary--color);
     color: var(--secondary--color);
+}
+
+.header-con .navbar-brand img {
+    width: 150px;
+
 }
 
 .navbar-light .navbar-brand {

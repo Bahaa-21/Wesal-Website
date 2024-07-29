@@ -47,9 +47,7 @@ h6 {
     color:#223f81
 }
 
-.nav-bg {
-    background-color: var(--navy-blue)
-}
+
 
 .main-row{
     direction: rtl;
@@ -62,7 +60,8 @@ li{
 }
 
 :root {
-    --primary--color: #223f81;
+    
+    --WesalPrimary--color: #223f81;
     --black--color: #000000;
     --dark-blue: #000c36;
     --navy-blue: #00186e;
@@ -73,6 +72,7 @@ li{
     --sky-color: #005170;
     --black-family-color: #0f0d1d;
 }
+
 
 /* HEADER SECTION */
 .nav-bg::before {
@@ -94,6 +94,19 @@ li{
     padding-right: 2%;
     margin-top: 0px;
 }
+.nav-background {
+    background-color: var(--WesalPrimary--color);
+}
+.navbar {
+    background-color: var(--WesalPrimary--color);
+}
+
+
+.header-con {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
 .header-con .navbar-light .navbar-nav .nav-link {
     font-size: 16px;
     color: var(--secondary--color);
@@ -102,9 +115,12 @@ li{
     padding: 10px 0 !important;
     position: relative;
 }
+.navbar {
+    background-color: var(--WesalPrimary--color);
+}
 
 .header-con .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .header-con .navbar-expand-lg .navbar-nav {
@@ -167,7 +183,7 @@ li{
     height: 1px;
     content: '';
     position: absolute;
-    background: var(--primary--color);
+    background: var(--WesalPrimary--color);
     transition: ease-in-out 0.3s;
 }
 
@@ -204,14 +220,14 @@ li{
 
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item:active,
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item:active {
-    background-color: var(--primary--color);
+    background-color: var(--WesalPrimary--color);
     color: var(--secondary--color);
 }
 .collapse {
     background: none;
 }
 .header-con .navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: var(--primary--color);
+    background-color: var(--WesalPrimary--color);
     color: var(--secondary--color);
 }
 
@@ -221,7 +237,7 @@ li{
 }
 
 .navbar-light .navbar-brand {
-    padding-top: 2px;
+    padding-top: 0px;
     margin-left: 16px;
 }
 
@@ -389,7 +405,7 @@ li{
 }
 
 span.blue-text {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .banner-con .vector-img2 {
@@ -640,7 +656,7 @@ span.blue-text {
 
 .projects-con .project-carousel .project-box span.item-span {
     font-size: 30px;
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
     line-height: 44px;
     font-weight: 600;
     font-family: 'Oswald', sans-serif;
@@ -685,7 +701,7 @@ span.blue-text {
 }
 
 .projects-con .project-carousel .project-box a.explore-link {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
     font-size: 16px;
     text-decoration: none;
     position: relative;
@@ -720,7 +736,7 @@ span.blue-text {
     line-height: 73px;
     text-align: center;
     border-radius: 100px;
-    border: 2px solid var(--primary--color);
+    border: 2px solid var(--WesalPrimary--color);
     float: right;
     transition: all 0.3s ease-in-out;
     background-color: var(--secondary--color);
@@ -733,7 +749,7 @@ span.blue-text {
 }
 
 .projects-con .project-carousel .project-box .arrow i {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
     width: 12px;
     height: 22px;
     font-size: 21px;
@@ -754,8 +770,11 @@ span.blue-text {
 }
 
 .navbar {
-    background-color: var(--navy-blue);
+    background-color: var(--WesalPrimary--color)
    
+}
+.mb-0-1 {
+    display: none;
 }
 
 .creativity-con .creative-inner-wrapper {
@@ -772,7 +791,7 @@ span.blue-text {
 }
 
 .creativity-con .progress-bar {
-    background-color: var(--primary--color);
+    background-color: var(--WesalPrimary--color);
     border-radius: 20px;
     height: 24px;
     position: absolute;
@@ -852,7 +871,7 @@ span.blue-text {
 
 .reviews-con .review-carousel .item .review-person {
     background-color: var(--secondary--color);
-    border: 4px solid var(--primary--color);
+    border: 4px solid var(--WesalPrimary--color);
     height: 127px;
     width: 127px;
     border-radius: 100px;
@@ -865,9 +884,9 @@ span.blue-text {
 }
 
 .reviews-con .review-carousel .item i {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
     background-color: var(--secondary--color);
-    border: 2px solid var(--primary--color);
+    border: 2px solid var(--WesalPrimary--color);
     height: 38px;
     width: 38px;
     border-radius: 100px;
@@ -935,8 +954,8 @@ span.blue-text {
 }
 
 .reviews-con .owl-dots button.active span {
-    background-color: var(--primary--color) !important;
-    color: var(--primary--color);
+    background-color: var(--WesalPrimary--color) !important;
+    color: var(--WesalPrimary--color);
 }
 
 .reviews-con .owl-dots button:focus,
@@ -1016,7 +1035,7 @@ span.blue-text {
 }
 
 .blogs-con .blog-inner ul li i {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
     margin-right: 5px;
 }
 
@@ -1030,7 +1049,7 @@ span.blue-text {
     line-height: 23px;
     margin-bottom: 0;
     padding-bottom: 22px;
-    border-bottom: 1px solid var(--primary--color);
+    border-bottom: 1px solid var(--WesalPrimary--color);
 }
 
 .blogs-con::before {
@@ -1054,7 +1073,7 @@ span.blue-text {
 
 /* FOOTER SECTION */
 .footer-con {
-    background-color: var(--primary--color);
+    background-color: var(--WesalPrimary--color);
 }
 
 .footer-con .newsletter-bar {
@@ -1238,7 +1257,7 @@ span.blue-text {
 }
 
 .footer-con .copyright-con .social-icons-con li i {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .footer-con .copyright-con .social-icons-con li a:hover {
@@ -1477,7 +1496,7 @@ span.blue-text {
     border-radius: 100px;
     padding: 16px 0;
     margin-bottom: 17px;
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .managed-corporate-con .we-best-con {
@@ -1537,7 +1556,7 @@ span.blue-text {
 
 .multiple-reviews-con .multiple-reviews-box .display-pic {
     background-color: var(--secondary--color);
-    border: 4px solid var(--primary--color);
+    border: 4px solid var(--WesalPrimary--color);
     height: 104px;
     width: 104px;
     border-radius: 100px;
@@ -1641,7 +1660,7 @@ span.blue-text {
 }
 
 .get-intouch-inner-con #contactpage .navy-btn button:hover {
-    background-color: var(--primary--color);
+    background-color: var(--WesalPrimary--color);
     color: var(--secondary--color);
     transition: ease-in-out 0.6s;
 }
@@ -1658,7 +1677,7 @@ span.blue-text {
 }
 
 .get-intouch-con .contact-info {
-    background-color: var(--primary--color);
+    background-color: var(--WesalPrimary--color);
     border-radius: 15px;
     padding: 44px 58px 60px;
     min-height: 694px;
@@ -1745,7 +1764,7 @@ span.blue-text {
 }
 
 .get-intouch-con .contact-info .social-icons-con li i {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
     font-size: 26px;
 }
 
@@ -1796,7 +1815,7 @@ span.blue-text {
     left: 0;
     top: 4px;
     font-size: 16px;
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .iframe-bg-img ul li a {
@@ -1805,7 +1824,7 @@ span.blue-text {
 
 .iframe-bg-img ul li a:hover {
     text-decoration: none;
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .get-intouch-con .get-intouch-inner-con #contactpage span.error {

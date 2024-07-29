@@ -1,5 +1,5 @@
 :root {
-	--primary--color: #059cd6;
+	--WesalPrimary--color: #059cd6;
 	--black--color: #000000;
 	--dark-blue: #000c36;
 	--navy-blue: #00186e;
@@ -101,7 +101,7 @@ body {
 	line-height: 16px;
 	left: 0;
 	top: 0;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .single-blog-details p {
@@ -173,7 +173,7 @@ body {
 }
 
 .blog-tabs-inner-section .pagination .page-item.active .page-link {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .blog-tabs-inner-section .pagination .page-item.active .page-link:hover {
@@ -190,17 +190,17 @@ body {
 	letter-spacing: 1px;
 	position: relative;
 	font-weight: bold;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .single-blog-box h4 a:hover {
 	text-decoration: none;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .generic-btn2 a::before {
 	content: "";
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	width: 20px;
 	height: 3px;
 	position: absolute;
@@ -238,12 +238,12 @@ body {
 
 .blog-tabs-inner-section .nav-tabs .nav-link.active {
 	color: var(--secondary--color);
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	border-radius: 0;
 }
 
 .blog-tabs-inner-section .nav-tabs .nav-link.active:hover {
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 }
 
 /*=-*=-*=-*=-*=-*=-*= Single Post =-*=-*=-*=-*=-*=-*=/
@@ -335,7 +335,7 @@ a.item-link {
 	padding: 10px 16px;
 	height: auto;
 	background: var(--secondary--color);
-	border: 1px solid var(--primary--color);
+	border: 1px solid var(--WesalPrimary--color);
 }
 
 .widget-newsletter .btn {
@@ -343,7 +343,7 @@ a.item-link {
 	height: 100%;
 	padding: 8px 16px;
 	border-radius: 0 5px 5px 0;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	color: var(--secondary--color);
 }
 
@@ -375,7 +375,7 @@ a.item-link {
 }
 
 .sidebar .widget .tabs li>a:hover {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .sidebar .post-thumbnail-entry>img {
@@ -525,12 +525,12 @@ a.item-link {
 
 .blogpage-section .blog-box .lower-portion {
 	padding: 20px;
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 }
 
 .blogpage-section .blog-box .lower-portion i {
 	font-size: 14px;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	margin-right: 2px;
 	margin-bottom: 10px;
 }
@@ -556,7 +556,7 @@ a.item-link {
 }
 
 .blogpage-section .blog-box .lower-portion a:hover h5 {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .blogpage-section .blog-box .button-portion {
@@ -585,13 +585,13 @@ a.item-link {
 
 .blogpage-section .blog-box .button-portion .calendar-ml {
 	font-size: 18px;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	margin-right: 5px;
 	margin-bottom: 28px;
 }
 
 .blogpage-section .blog-box .button-portion .read_more {
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	background-color: var(--navy-blue);
 	color: var(--secondary--color);
 	font-size: 14px;
@@ -610,12 +610,12 @@ a.item-link {
 }
 
 .button-portion .date i {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	margin-right: 5px;
 }
 
 .blogpage-section .blog-box .button-portion .read_more:hover {
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	color: var(--secondary--color);
 	transition: ease-in-out 0.6s;
 }
@@ -652,7 +652,7 @@ a.item-link {
 
 .singleblog-section .main-box .content1 i {
 	font-size: 14px;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	margin-right: 4px;
 	margin-bottom: 0;
 }
@@ -676,7 +676,7 @@ a.item-link {
 	padding: 20px 32px 32px;
 	border-radius: 10px;
 	margin-bottom: 34px;
-	border-left: 4px solid var(--primary--color);
+	border-left: 4px solid var(--WesalPrimary--color);
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 }
@@ -687,7 +687,7 @@ a.item-link {
 
 .singleblog-section .main-box .content2 p {
 	font-style: italic;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	font-size: 18px;
 	line-height: 25px;
 }
@@ -722,7 +722,7 @@ a.item-link {
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 400;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	color: #ffffff;
 	border-radius: 8px;
 	padding: 10px 18px;
@@ -800,7 +800,7 @@ a.item-link {
     background-image: url(../images/single-blog-next-image-hover.png);
 }
 .singleblog-section .buttons .prev:hover .prev-text, .singleblog-section .buttons .next:hover .next-text {
-    color: var(--primary--color);
+    color: var(--WesalPrimary--color);
 }
 
 .singleblog-section .content4 .icon {
@@ -827,7 +827,7 @@ a.item-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	border-radius: 100%;
 	transition: .3s ease-in-out;
 	border: 1px solid transparent;
@@ -845,7 +845,7 @@ a.item-link {
 
 .singleblog-section .content4 .icon .social-icons ul li:hover {
 	background: var(--secondary--color);
-	border-color: var(--primary--color);
+	border-color: var(--WesalPrimary--color);
 	transform: translateY(-8px);
 }
 
@@ -854,7 +854,7 @@ a.item-link {
 }
 
 .singleblog-section .content4 .icon .social-icons ul li:hover i {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .singleblog-section .content4 .icon .social-icons ul li:hover a {
@@ -916,7 +916,7 @@ a.item-link {
 
 .singleblog-section .content5 .content {
 	padding: 82px 65px 20px;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	border-radius: 10px;
 }
 
@@ -943,7 +943,7 @@ a.item-link {
 
 .singleblog-section .content6:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 92%;
 	height: 6px;
@@ -957,7 +957,7 @@ a.item-link {
 
 .singleblog-section .content6 h4:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 23%;
 	height: 45px;
@@ -987,14 +987,14 @@ a.item-link {
 .singleblog-section .content6 .comment span {
 	margin-bottom: -38px;
 	display: block;
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .singleblog-section .content6 .comment .reply {
 	font-size: 18px;
 	line-height: 26px;
 	font-weight: 400;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	background-color: var(--navy-blue);
 	color: #ffffff;
 	border-radius: 100px;
@@ -1009,7 +1009,7 @@ a.item-link {
 }
 
 .singleblog-section .content6 .comment .reply:hover {
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	color: var(--secondary--color);
 	transition: ease-in-out 0.6s;
 }
@@ -1043,7 +1043,7 @@ a.item-link {
 	outline: none;
 	overflow-y: auto;
 	border: none;
-	border: 1px solid var(--primary--color);
+	border: 1px solid var(--WesalPrimary--color);
 }
 
 .singleblog-section .content7 textarea:focus,
@@ -1064,7 +1064,7 @@ a.item-link {
 	overflow: visible;
 	outline: none;
 	border: none;
-	border: 1px solid var(--primary--color);
+	border: 1px solid var(--WesalPrimary--color);
 }
 
 .singleblog-section .content7 .text-mb {
@@ -1096,7 +1096,7 @@ a.item-link {
 }
 
 .singleblog-section .content7 .post_comment:hover {
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	color: var(--secondary--color);
 	transition: ease-in-out 0.6s;
 	cursor: pointer;
@@ -1122,7 +1122,7 @@ a.item-link {
 
 .singleblog-section .box1 h5:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 84%;
 	height: 43px;
@@ -1135,7 +1135,7 @@ a.item-link {
 	font-weight: 400;
 	color: var(--text-color);
 	background: var(--secondary--color);
-	border: 1px solid var(--primary--color);
+	border: 1px solid var(--WesalPrimary--color);
 	border-radius: 8px;
 	padding: 0 75px 0 18px;
 	width: 100%;
@@ -1157,7 +1157,7 @@ a.item-link {
 	height: 56px;
 	color: var(--secondary--color);
 	border: 1px solid transparent;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	border-radius: 8px;
 	outline: none;
 	box-shadow: none;
@@ -1165,9 +1165,9 @@ a.item-link {
 }
 
 .singleblog-section .box1 .search:hover {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	background: transparent;
-	border: 1px solid var(--primary--color);
+	border: 1px solid var(--WesalPrimary--color);
 }
 
 .singleblog-section .box2 {
@@ -1180,7 +1180,7 @@ a.item-link {
 
 .singleblog-section .box2 h5:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 84%;
 	height: 45px;
@@ -1210,7 +1210,7 @@ a.item-link {
 
 .singleblog-section .box3 h5:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 84%;
 	height: 45px;
@@ -1235,7 +1235,7 @@ a.item-link {
 	height: 40px;
 	width: 40px;
 	border-radius: 100%;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	transition: .3s ease-in-out;
 	border: 1px solid transparent;
 }
@@ -1247,11 +1247,11 @@ a.item-link {
 .singleblog-section .box3 .social-icons ul li:hover {
 	background: var(--secondary--color);
 	transform: translateY(-8px);
-	border-color: var(--primary--color);
+	border-color: var(--WesalPrimary--color);
 }
 
 .singleblog-section .box3 .social-icons ul li:hover i {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .singleblog-section .box3 .social-icons ul li:first-child {
@@ -1280,7 +1280,7 @@ a.item-link {
 
 .singleblog-section .box4 h5:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 84%;
 	height: 45px;
@@ -1296,7 +1296,7 @@ a.item-link {
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 400;
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 	color: #ffffff;
 	border-radius: 8px;
 	padding: 14px 18px;
@@ -1332,7 +1332,7 @@ a.item-link {
 
 .singleblog-section .box5 h5:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 84%;
 	height: 45px;
@@ -1346,7 +1346,7 @@ a.item-link {
 
 .singleblog-section .box5 .feed:after {
 	content: "";
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	position: absolute;
 	width: 84%;
 	height: 125px;
@@ -1383,7 +1383,7 @@ a.item-link {
 }
 
 .singleblog-section .box5 .feed a:hover {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 }
 
 .blogpage-section a {
@@ -1557,14 +1557,14 @@ a.item-link {
 .load-more a {
 	padding: 12px 25px;
 	display: inline-block;
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	color: var(--secondary--color);
 }
 
 .load-more a:hover {
 	background-color: var(--secondary--color);
-	color: var(--primary--color);
-	box-shadow: inset 0 0 0px 1px var(--primary--color);
+	color: var(--WesalPrimary--color);
+	box-shadow: inset 0 0 0px 1px var(--WesalPrimary--color);
 }
 
 .post-item.border>.post-item-wrap>.post-item-description {
@@ -1613,7 +1613,7 @@ a.item-link {
 #blog .post-item .post-item-description>h2>a:hover,
 .load-more a:hover,
 #blog .post-item.border .post-item-wrap .post-item-description a:hover {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -1630,27 +1630,27 @@ a.item-link {
 }
 
 .form-gray-fields .btn:hover {
-	color: var(--primary--color);
+	color: var(--WesalPrimary--color);
 	background: transparent;
 }
 
 .sidebar .widget {
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 	border-radius: 0;
 }
 
 .sidebar .nav-tabs {
-	border-bottom: 2px solid var(--primary--color);
+	border-bottom: 2px solid var(--WesalPrimary--color);
 }
 
 .sidebar .nav-tabs .nav-link.active {
 	background-color: transparent;
-	box-shadow: 0 0 0 2px solid var(--primary--color);
+	box-shadow: 0 0 0 2px solid var(--WesalPrimary--color);
 }
 
 .sidebar .post-thumbnail-entry,
 .sidebar .widget-categories ul li {
-	border-bottom: 1px solid var(--primary--color);
+	border-bottom: 1px solid var(--WesalPrimary--color);
 }
 
 .sidebar .post-thumbnail-entry .post-category,
@@ -1667,13 +1667,13 @@ a.item-link {
 
 .sidebar .tags a {
 	color: var(--secondary--color);
-	/* border: 2px solid var(--primary--color); */
+	/* border: 2px solid var(--WesalPrimary--color); */
 	background-color: var(--navy-blue);
 }
 
 .form-gray-fields .btn {
-	border-color: var(--primary--color);
-	background-color: var(--primary--color);
+	border-color: var(--WesalPrimary--color);
+	background-color: var(--WesalPrimary--color);
 }
 
 .sidebar .tags a.active,
@@ -1681,7 +1681,7 @@ a.item-link {
 .sidebar .tags a:focus,
 .sidebar .tags a:hover {
 	color: var(--secondary--color);
-	background: var(--primary--color);
+	background: var(--WesalPrimary--color);
 }
 
 .post-item.border .post-meta-category,
@@ -1699,7 +1699,7 @@ a.item-link {
 }
 
 .load-more a:hover {
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	color: var(--secondary--color);
 	font-size: 16px;
 	line-height: 24px;
@@ -1733,7 +1733,7 @@ a.item-link {
 .pagination .page-item:not(.disabled):active>.page-link,
 .pagination .page-item:not(.disabled):focus>.page-link,
 .pagination .page-item:not(.disabled):hover>.page-link {
-	background-color: var(--primary--color);
+	background-color: var(--WesalPrimary--color);
 	border-color: #e4e4e4;
 	box-shadow: none;
 	color: var(--secondary--color);
@@ -1823,7 +1823,7 @@ a.item-link {
 	margin-bottom: 10px;
 }
 #blog .onecolumn-blog img, #blog .twocolumn-blog img{
-	border: 1px solid var(--primary--color);
+	border: 1px solid var(--WesalPrimary--color);
 }
 .blog-box {
 	border-radius: 10px;

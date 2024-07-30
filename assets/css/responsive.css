@@ -823,6 +823,10 @@
     .mb-0 {
         display: none;
     }
+
+    .paragraph-services {
+        display: block;
+    }
     .mb-0-1 {
         display: block;
     }

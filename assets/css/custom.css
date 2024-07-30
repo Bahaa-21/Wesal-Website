@@ -74,7 +74,9 @@ li{
     --black-family-color: #0f0d1d;
 }
 
-
+.img-fluid{
+    width: 70px;
+}
 /* HEADER SECTION */
 .nav-bg::before {
     background: none;

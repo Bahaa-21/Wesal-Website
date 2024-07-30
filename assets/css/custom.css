@@ -5,13 +5,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
 }
-
+.vv{
+    box-sizing: unset;
+}
 a,
 button input {
     outline: none;
@@ -600,10 +601,16 @@ span.blue-text {
 
 .growth-services-con .arrow-down {
     top: -52%;
+    
+}
+.arrow-down {
+        padding-top: 25px;
+
 }
 
 .growth-services-con .arrow-up {
-    bottom: 14%;
+    bottom: 25px;
+    
 }
 
 .growth-services-con .best-services:hover {
